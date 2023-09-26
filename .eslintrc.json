@@ -1,0 +1,24 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": ["standard-with-typescript", "plugin:react/recommended"],
+  "ignorePatterns": ["postcss.config.js", "next.config.js"],
+  "parserOptions": {
+    "project": "./tsconfig.json",
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": ["react"],
+  "rules": {
+    "semi": "off",
+    "@typescript-eslint/semi": "off",
+    "space-before-function-paren": "off",
+    "@typescript-eslint/space-before-function-paren": "off",
+    "comma-dangle": "off",
+    "@typescript-eslint/comma-dangle": "off",
+    "@typescript-eslint/triple-slash-reference": "off",
+    "@typescript-eslint/member-delimiter-style": "off"
+  }
+}
