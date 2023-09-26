@@ -19,6 +19,7 @@
     "comma-dangle": "off",
     "@typescript-eslint/comma-dangle": "off",
     "@typescript-eslint/triple-slash-reference": "off",
-    "@typescript-eslint/member-delimiter-style": "off"
+    "@typescript-eslint/member-delimiter-style": "off",
+    "multiline-ternary": "off"
   }
 }

@@ -2,21 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --foreground-rgb: 0, 0, 0; /* Updated to black */
+  --background-start-rgb: 242, 242, 242; /* Updated to off-white */
+  --background-end-rgb: 242, 242, 242; /* Updated to off-white */
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --foreground-rgb: 255, 255, 255; /* Updated to white */
+    --background-start-rgb: 242, 242, 242; /* Updated to white */
+    --background-end-rgb: 242, 242, 242; /* Updated to white */
   }
 }
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: 'white';
+  background: white;
+  font-family: 'Open Sans', sans-serif; /* Add the font-family declaration */
 }
